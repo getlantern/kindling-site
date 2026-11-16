@@ -2,7 +2,7 @@
 """The FAQ: one list that generates both the visible FAQ section and its
 schema.org FAQPage markup in index.html, so the two can't drift apart.
 
-Edit FAQ below, then run: python3 site/tools/faq.py
+Edit FAQ below, then run: python3 tools/faq.py
 Answers are HTML (links allowed); the JSON-LD gets the same text with tags
 stripped. The script also writes the rest of the JSON-LD graph.
 """
